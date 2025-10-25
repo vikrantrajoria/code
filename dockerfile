@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
 RUN apt-get update && apt-get install -y apache2
 RUN cd /var/www/html
-RUN echo "welcome to cloudyyyyy">/var/www/html/index.html
+RUN echo "I Love my wife">/var/www/html/index.html
 RUN service apache2 start
